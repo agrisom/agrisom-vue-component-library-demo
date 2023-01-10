@@ -1,0 +1,1 @@
+export { default as BasicComponent } from './BasicComponent/BasicComponent.vue';
