@@ -1,6 +1,6 @@
 {
   "name": "agrisom-vue-component-library-demo",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "",
   "main": "./dist/agrisom-vue-component-library-demo.cjs.js",
   "module": "./dist/agrisom-vue-component-library-demo.es.js",
