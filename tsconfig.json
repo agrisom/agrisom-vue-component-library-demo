@@ -18,6 +18,7 @@
     "baseUrl": ".",
     "paths": {
       "@/*": ["src/*"],
+      "agrisom-vue-component-library-demo": ["src/LibraryDeclaration"],
     },
     "types": ["vite/client"]
   },

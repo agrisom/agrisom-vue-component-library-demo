@@ -7,22 +7,22 @@ const props = defineProps<{
   color?: ColorType;
 }>();
 
-const classes = computed(() => props.color ? [`basic-component--color-${props.color}`] : []);
+const classes = computed(() => props.color ? [`first-component--color-${props.color}`] : []);
 </script>
   
 <template>
-  <h1 :class="['basic-component', ...classes]">{{  props.text  }}</h1>
+  <h1 :class="['first-component', ...classes]">{{  props.text  }}</h1>
 </template>
 
 <style>
-.basic-component{
+.first-component{
   color:black;
 }
 
-.basic-component--color-green{
+.first-component--color-green{
   color:green;
 }
-.basic-component--color-red{
+.first-component--color-red{
   color:red;
 }
 </style>

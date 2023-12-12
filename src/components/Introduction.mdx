@@ -1,6 +1,6 @@
-import { Meta } from '@storybook/blocks';
-import Readme from '/README.md';
+import { Meta, Markdown } from '@storybook/blocks';
+import readme from '/README.md?raw';
 
-<Meta title="Introduction" />
+<Meta title="Introducción" />
 
-<Readme />
+<Markdown>{readme}</Markdown>

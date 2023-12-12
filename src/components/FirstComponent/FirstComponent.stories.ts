@@ -1,10 +1,10 @@
 import type { Meta, StoryObj } from '@storybook/vue3';
 
-import BasicComponent from './BasicComponent.vue';
+import FirstComponent from './FirstComponent.vue';
 
 const meta = {
-  title: 'Components/BasicComponent',
-  component: BasicComponent,
+  title: 'Components/FirstComponent',
+  component: FirstComponent,
   tags: ['autodocs'],
   argTypes: {
     text: {
@@ -23,10 +23,10 @@ const meta = {
     },
   },
   args: { text: '' }, // default value
-} satisfies Meta<typeof BasicComponent>;
+} satisfies Meta<typeof FirstComponent>;
 
 export default meta;
-type Story = StoryObj<typeof meta>;
+type Story = StoryObj<typeof FirstComponent>;
 
 export const Default: Story = {
   args: {

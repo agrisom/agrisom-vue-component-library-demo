@@ -41,6 +41,7 @@ export default defineConfig({
   resolve: {
     alias: {
       '@': resolve(__dirname, 'src'),
+      'agrisom-vue-component-library-demo': resolve(__dirname, 'src/LibraryDeclaration'),
     },
   },
 });
